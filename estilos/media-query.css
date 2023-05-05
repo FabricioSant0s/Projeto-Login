@@ -31,15 +31,20 @@ Grandes telas acima de 1200px
     }
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:992px) and (max-width: 10000000px) {
     section#login {
-        width: 950px;
+        width: 90vw;
     }
+
 
     section#login > div#imagem {
         float: left;
         width: 40%;
         height: 100%;
+    }
+
+    section#login > div#formulario {
+        width: 70%;
     }
 
 }
